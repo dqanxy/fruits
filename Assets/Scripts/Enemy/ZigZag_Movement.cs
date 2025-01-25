@@ -9,8 +9,9 @@ public class ZigZag_Movement : MonoBehaviour
     public float speedY;
 
     //the amount of time in between each rotation
-    public float time;
-    
+    public float timeToSwitchX;
+    public float timeToSwitchY;
+
     //the amount of time before deletion
     public float destroyTime;
 
@@ -22,13 +23,20 @@ public class ZigZag_Movement : MonoBehaviour
     {
         // Get the Rigidbody2D that's on our character
         body = GetComponent<Rigidbody2D>();
-        InvokeRepeating("switchX", time, time);
+        InvokeRepeating("switchX", timeToSwitchX, timeToSwitchX);
+        InvokeRepeating("switchY", timeToSwitchY, timeToSwitchY);
+
         Destroy(gameObject, destroyTime);
     }
 
     public void switchX()
     {
         speedX = speedX * -1;
+    }
+
+    public void switchY()
+    {
+        speedY = speedY * -1;
     }
 
     // Update is called once per frame
