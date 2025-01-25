@@ -28,7 +28,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Background
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1199870233
+    locked: 0
   - name: Projectile
     uniqueID: 3418451749
     locked: 0
