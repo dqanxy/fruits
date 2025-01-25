@@ -377,6 +377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Onion-san
       objectReference: {fileID: 0}
+    - target: {fileID: 2591262850221301967, guid: 71ef58901bb9f3042b9a49dbe088a56f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -393,6 +397,10 @@ PrefabInstance:
     - target: {fileID: 5269170389192848734, guid: f70a62f54eb560645bc6965de3e0d6ef, type: 3}
       propertyPath: m_Name
       value: Carrot-san
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269170389192848734, guid: f70a62f54eb560645bc6965de3e0d6ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9196349012350294407, guid: f70a62f54eb560645bc6965de3e0d6ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -507,6 +515,10 @@ PrefabInstance:
     - target: {fileID: 5959651910106887075, guid: 67bb091c0754ae4478b10e2b3ac63e24, type: 3}
       propertyPath: m_Name
       value: Beet-san
+      objectReference: {fileID: 0}
+    - target: {fileID: 5959651910106887075, guid: 67bb091c0754ae4478b10e2b3ac63e24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7220620303592447866, guid: 67bb091c0754ae4478b10e2b3ac63e24, type: 3}
       propertyPath: m_LocalPosition.x
