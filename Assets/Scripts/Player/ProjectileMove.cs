@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ProjectileMove : MonoBehaviour
 {
-    float speed = 20f;
+    public float speed = 20f;
     void Start()
     {
         
@@ -11,7 +11,7 @@ public class ProjectileMove : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + new Vector3(0, speed, 0) * Time.deltaTime;
-        if(transform.position.y >= 5.2)
+        if((speed > 0 && transform.position.y >= 5.2) || (speed < 0 && transform.position.y <= -5.2))
         {
             Destroy(gameObject);
         }
