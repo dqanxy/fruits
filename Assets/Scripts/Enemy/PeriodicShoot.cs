@@ -5,6 +5,7 @@ public class PeriodicShoot : MonoBehaviour
 {
     public float period;
     public GameObject projectile;
+    public int maxHPForAttack = 9999;
 
     void Start()
     {
@@ -17,6 +18,10 @@ public class PeriodicShoot : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(period);
+            if(GetComponent<BaseHealth>() && GetComponent<BaseHealth>().health > maxHPForAttack)
+            {
+                continue;
+            }
             Instantiate(projectile);
             projectile.transform.position = transform.position;
         }
