@@ -3,11 +3,12 @@ using System.Collections;
 
 public class homing_attack : MonoBehaviour
 {
-
+    private PlayerController player;
     private IEnumerator coroutine;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = FindObjectOfType<PlayerController>();
         coroutine = HomingAttack();
         StartCoroutine(coroutine);
     }
@@ -21,6 +22,6 @@ public class homing_attack : MonoBehaviour
     IEnumerator HomingAttack()
     {
         yield return new WaitForSeconds(5);
-        gameObject.transform.position = PlayerController.transform.position();
+        this.gameObject.transform.position = player.gameObject.transform.position;
     }
 }
