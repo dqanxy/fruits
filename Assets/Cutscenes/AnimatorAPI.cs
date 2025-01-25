@@ -43,10 +43,6 @@ public class AnimatorAPI : MonoBehaviour
     {
         BloomManager.instance.SwitchRed(float.Parse(time));
     }
-    public void SetPower(string power)
-    {
-        PowerOfRootsManager.instance.power = float.Parse(power);
-    }
     public void ChangeText(string newText)
     {
         TextManager.TextWithDelay(newText);
