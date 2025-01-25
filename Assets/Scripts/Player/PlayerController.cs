@@ -5,7 +5,16 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public GameObject projectile;
 
-    private float cooldown = 0; 
+    private float cooldown = 0;
+
+    public static PlayerController Instance { get; private set; }
+    
+    private void Awake()
+    {
+        if (!Instance) Instance = this;
+        else Destroy(gameObject);
+    }
+
     void Start()
     {
     }

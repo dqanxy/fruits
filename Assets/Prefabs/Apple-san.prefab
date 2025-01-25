@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5849164490106875435}
   - component: {fileID: 3487661836378650587}
   - component: {fileID: 2158358658906236473}
-  - component: {fileID: 152451003832676342}
+  - component: {fileID: 1625583759188142755}
   m_Layer: 8
   m_Name: Apple-san
   m_TagString: Player
@@ -168,7 +168,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &152451003832676342
+--- !u!114 &1625583759188142755
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4845723219141071431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 079b56edc69c2df479db89237b81d02c, type: 3}
+  m_Script: {fileID: 11500000, guid: 656f17c887c53a94e887f95bbe51bf1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
