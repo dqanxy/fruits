@@ -1,7 +1,4 @@
 using UnityEngine;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 
 public class GenericEnemyShooter : MonoBehaviour
 {
@@ -32,6 +29,11 @@ public class GenericEnemyShooter : MonoBehaviour
         }
     }
 
+    public static Vector3 angleToDirection(int angle)
+    {
+        return Quaternion.Euler(0, 0, angle) * Vector3.right;
+    }
+
     public void Shoot()
     {
         Vector2 shootingDirection = Vector2.down;
@@ -44,7 +46,10 @@ public class GenericEnemyShooter : MonoBehaviour
                     shootingDirection = PlayerController.Instance.transform.position - transform.position;
                 }
                 break;
-            
+            case ShootingType.AtAngle:
+                shootingDirection = angleToDirection(shotAngle);
+                break;
+
         }
         
         shootingDirection.Normalize();
@@ -52,6 +57,14 @@ public class GenericEnemyShooter : MonoBehaviour
         var bulletObj = Instantiate(bullet, transform.position, Quaternion.identity);
         var bulletData = bulletObj.GetComponent<EnemyBullet>();
         bulletData.Fire(shootingDirection);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if(shootingType == ShootingType.AtAngle)
+        {
+            Gizmos.DrawLine(transform.position, transform.position + angleToDirection(shotAngle));
+        }
     }
 }
 
