@@ -52,13 +52,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Leaf_ZigZag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9186054363339913735, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6624823781888986487}
+    - targetCorrespondingSourceObject: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8730354970659321146}
   m_SourcePrefab: {fileID: 100100000, guid: 4cc692ce072004149854236094ec726f, type: 3}
 --- !u!1 &2869219513083298765 stripped
 GameObject:
@@ -79,5 +83,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 1
   speedY: 2
-  time: 1
+  timeToSwitchX: 0
+  timeToSwitchY: 0
   destroyTime: 5
+--- !u!114 &8730354970659321146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2869219513083298765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4f4352c04131143ab5f6a5b89fa271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1

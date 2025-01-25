@@ -99,10 +99,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1073760810538841400}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37329e142aa865f409ac61f74e498e27, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7acf7d3c4e1ba41951516b4d850dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 5
+  bulletSpeed: 1
 --- !u!50 &7316418561142070967
 Rigidbody2D:
   serializedVersion: 5
