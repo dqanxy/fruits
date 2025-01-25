@@ -46,6 +46,26 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(xSpeed, ySpeed, 0);
         transform.position = transform.position + (movement * Time.deltaTime);
-    
+
+        if (transform.position.x < -3.4f)
+        {
+            transform.position = new Vector3(-3.4f, transform.position.y);
+        }
+
+        if (transform.position.x > 3.4f)
+        {
+            transform.position = new Vector3(3.4f, transform.position.y);
+        }
+
+        if (transform.position.y < -4.5f)
+        {
+            transform.position = new Vector3(transform.position.x, -4.5f);
+        }
+
+        if (transform.position.y > 4.5f)
+        {
+            transform.position = new Vector3(transform.position.x, 4.5f);
+        }
+
     }
 }
