@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5656941059994595929}
   - component: {fileID: 2015644524760108649}
   - component: {fileID: 4974441221020905111}
+  - component: {fileID: 2532169663406370686}
   m_Layer: 7
-  m_Name: EnemyProjectile
+  m_Name: LeafBurster
   m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 7011325636888672572}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4984012, y: 3.13, z: -0.051264293}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.8763157, y: 3.13, z: -0.051264293}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,12 +79,12 @@ SpriteRenderer:
   m_SortingLayerID: -876515547
   m_SortingLayer: -3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -306787472437928336, guid: 0c8a60552ed3b40488fd6db611a64168, type: 3}
+  m_Sprite: {fileID: 5781445747943558089, guid: f568c11397417d04bba6459a413c8aca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.45, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -101,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92fbade545e170845a485851a63ef5ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -8
+  speed: -3
   rotation: 9
 --- !u!58 &4974441221020905111
 CircleCollider2D:
@@ -139,3 +140,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.1
+--- !u!114 &2532169663406370686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7011325636888672572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1143904a8763b7469f482e39c26839d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  period: 3
+  burstCount: 12
+  projectile: {fileID: 7011325636888672572, guid: cdf7b43ac5d5cf843b4189131b7d08b9, type: 3}

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class ZigZag_Movement : MonoBehaviour
 {
-    // The speed at which the player will move when going left and right
+    // The speed at which the enemy will move when going left and right
     public float speedX;
 
-    // The speed at which the player will move when going up and down
+    // The speed at which the enemy will move when going up and down
     public float speedY;
 
     //the amount of time in between each rotation
@@ -14,6 +14,14 @@ public class ZigZag_Movement : MonoBehaviour
 
     //the amount of time before deletion
     public float destroyTime;
+
+    //accelerateX parameters
+    public float extraXVelocity;
+    public float timeToAccelerateX = 100;
+
+    //accelerateY parameters
+    public float extraYVelocity;
+    public float timeToAccelerateY = 100;
 
     // A reference to a Rigidbody2D component that's on our character
     Rigidbody2D body;
@@ -26,6 +34,9 @@ public class ZigZag_Movement : MonoBehaviour
         InvokeRepeating("switchX", timeToSwitchX, timeToSwitchX);
         InvokeRepeating("switchY", timeToSwitchY, timeToSwitchY);
 
+        Invoke("accelerateX", timeToAccelerateX);
+        Invoke("accelerateY", timeToAccelerateY);
+
         Destroy(gameObject, destroyTime);
     }
 
@@ -37,6 +48,20 @@ public class ZigZag_Movement : MonoBehaviour
     public void switchY()
     {
         speedY = speedY * -1;
+    }
+
+    public void accelerateX()
+    {
+        float finalSpeed = speedX + extraXVelocity;
+
+        speedX = finalSpeed;
+    }
+
+    public void accelerateY()
+    {
+        float finalSpeed = speedY + extraYVelocity;
+
+        speedY = finalSpeed;
     }
 
     // Update is called once per frame
