@@ -180,6 +180,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &810255405824648487
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,6 +410,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &2404968900241366880
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +594,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &2445853741798909542
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,6 +778,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &2448679556769120165
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +962,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &2743849760419290998
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,6 +1146,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &2799094898375960324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1330,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &3133487150892428021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1514,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &3665753174567039338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1666,6 +1698,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &4330887923925785311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1882,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &4503063957834686540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,6 +2066,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &5442317631906016905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2250,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &6052273038821936178
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,6 +2434,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &6686140586452484298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +2618,10 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
 --- !u!1 &9130178160828075866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,3 +2802,7 @@ MonoBehaviour:
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 13
+  extraXVelocity: 0
+  timeToAccelerateX: 0
+  extraYVelocity: 3
+  timeToAccelerateY: 4
