@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 3PVUpperBody
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: armL:arm_mesh
+    m_Weight: 0
+  - m_Path: armR:arm_mesh
+    m_Weight: 0
+  - m_Path: body
+    m_Weight: 0
+  - m_Path: body_root
+    m_Weight: 1
+  - m_Path: body_root/hips
+    m_Weight: 1
+  - m_Path: body_root/hips/chest
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armL:arm_root
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint4
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint4/armL:joint5
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint4/armL:joint5/armL:joint6
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint7
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint7/armL:joint5
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint7/armL:joint5/armL:joint6
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint8
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint8/armL:joint5
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint8/armL:joint5/armL:joint6
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint9
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint9/armL:joint5
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armL:arm_root/armL:joint2/armL:joint3/armL:joint9/armL:joint5/armL:joint6
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/armR:arm_root
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint4
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint4/armR:joint5
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint4/armR:joint5/armR:joint6
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint7
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint7/armR:joint5
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint7/armR:joint5/armR:joint6
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint8
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint8/armR:joint5
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint8/armR:joint5/armR:joint6
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint9
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint9/armR:joint5
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/armR:arm_root/armR:joint2/armR:joint3/armR:joint9/armR:joint5/armR:joint6
+    m_Weight: 0
+  - m_Path: body_root/hips/chest/head
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/head/character_face:face_root
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/head/character_face:face_root/character_face:pSphere1
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/head/character_face:face_root/character_face:pSphere2
+    m_Weight: 1
+  - m_Path: body_root/hips/chest/head/character_face:face_root/character_face:smile
+    m_Weight: 1
+  - m_Path: body_root/legL:leg_root
+    m_Weight: 0
+  - m_Path: body_root/legL:leg_root/legL:joint2
+    m_Weight: 0
+  - m_Path: body_root/legL:leg_root/legL:joint2/legL:joint3
+    m_Weight: 0
+  - m_Path: body_root/legL:leg_root/legL:joint2/legL:joint3/legL:joint4
+    m_Weight: 0
+  - m_Path: body_root/legR:leg_root
+    m_Weight: 0
+  - m_Path: body_root/legR:leg_root/legR:joint2
+    m_Weight: 0
+  - m_Path: body_root/legR:leg_root/legR:joint2/legR:joint3
+    m_Weight: 0
+  - m_Path: body_root/legR:leg_root/legR:joint2/legR:joint3/legR:joint4
+    m_Weight: 0
+  - m_Path: legL:leg_mesh
+    m_Weight: 0
+  - m_Path: legR:leg_mesh
+    m_Weight: 0
