@@ -10,6 +10,9 @@ public class ZigZag_Movement : MonoBehaviour
 
     //the amount of time in between each rotation
     public float time;
+    
+    //the amount of time before deletion
+    public float destroyTime;
 
     // A reference to a Rigidbody2D component that's on our character
     Rigidbody2D body;
@@ -20,6 +23,7 @@ public class ZigZag_Movement : MonoBehaviour
         // Get the Rigidbody2D that's on our character
         body = GetComponent<Rigidbody2D>();
         InvokeRepeating("switchX", time, time);
+        Destroy(gameObject, destroyTime);
     }
 
     public void switchX()
