@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896859373425726226, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1674458067197720234, guid: c29f5940b26036f49a3784c63b68ce6c, type: 3}
     - target: {fileID: 1943797361605739371, guid: 4cc692ce072004149854236094ec726f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -48,6 +52,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7809419584238360730, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809419584238360730, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.7083333
+      objectReference: {fileID: 0}
+    - target: {fileID: 7809419584238360730, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0416666
+      objectReference: {fileID: 0}
     - target: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
       propertyPath: m_Name
       value: Twig_Homing
@@ -55,5 +71,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5660440929156144191}
   m_SourcePrefab: {fileID: 100100000, guid: 4cc692ce072004149854236094ec726f, type: 3}
+--- !u!1 &206426684775334059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
+  m_PrefabInstance: {fileID: 8964898088525090801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5660440929156144191
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206426684775334059}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d93b84340d5e954b91652de97943f21, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
