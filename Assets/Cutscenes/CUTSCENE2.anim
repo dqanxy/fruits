@@ -247,7 +247,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 19.583334
+    m_StopTime: 21.6
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -733,6 +733,13 @@ AnimationClip:
   - time: 17.633333
     functionName: WhiteOverTime
     data: 0 1 3
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 21.6
+    functionName: ChangeScene
+    data: TheCutscene3
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
