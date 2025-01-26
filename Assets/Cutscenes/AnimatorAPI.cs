@@ -91,4 +91,13 @@ public class AnimatorAPI : MonoBehaviour
         }
     }
 
+    public void ImpactFrames()
+    {
+        ImpactFrameManager.StartImpactFrames();
+    }
+    public void SmallImpactFrames()
+    {
+        ImpactFrameManager.StartSmallImpactFrames();
+    }
+
 }

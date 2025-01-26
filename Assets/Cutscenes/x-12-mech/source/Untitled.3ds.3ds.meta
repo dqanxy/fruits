@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 181fa15aeb628a84fad0a665d4696535
+guid: 25e6763f8c6872a4abc7f4f51e0ea69e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: 2100000, guid: 3ca59148fdbe9214fbbe34a042be69ad, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Leaf
-    second: {fileID: 2100000, guid: 674a7b14085403e4cb0a71458326f7d5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Stalk
-    second: {fileID: 2100000, guid: 6ddc039f3b04fab46a7ac66859153013, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

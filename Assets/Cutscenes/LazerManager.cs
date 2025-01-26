@@ -9,6 +9,7 @@ public class LazerManager : MonoBehaviour
     public bool spawn = false;
     public bool fire = false;
     public bool kill = false;
+    public float speed = 1;
 
     float veloBase = 120;
     float velo = 60;
@@ -60,7 +61,7 @@ public class LazerManager : MonoBehaviour
         float timer1 = 0f;
         while (timer1 < 1f)
         {
-            timer1 += Time.deltaTime;
+            timer1 += Time.deltaTime * speed;
             transform.localScale = scale * Vector3.one * (timer1 / 1f);
             velo = Mathf.Lerp(5 * veloBase, veloBase, timer1 / 1f);
             yield return null;
@@ -75,7 +76,7 @@ public class LazerManager : MonoBehaviour
         float lazerBase = lazer.transform.localScale.x;
         while (timer1 < .75f)
         {
-            timer1 += Time.deltaTime;
+            timer1 += Time.deltaTime * speed;
             lazer.transform.localScale = new Vector3(lazerBase * (1-(timer1 / .75f)), 50f, lazerBase * (1 - (timer1 / .75f)));
             velo = Mathf.Lerp(veloB, 0 , timer1 / .75f);
             yield return null;
@@ -85,7 +86,7 @@ public class LazerManager : MonoBehaviour
         timer1 = 0f;
         while (timer1 < .5f)
         {
-            timer1 += Time.deltaTime;
+            timer1 += Time.deltaTime * speed;
             transform.localScale = scale * Vector3.one * (1-(timer1 / .5f));
             yield return null;
         }
@@ -101,7 +102,7 @@ public class LazerManager : MonoBehaviour
         float timer1 = 0f;
         while (timer1 < 1f)
         {
-            timer1 += Time.deltaTime;
+            timer1 += Time.deltaTime * speed;
             velo = Mathf.Lerp(veloBase, 5 * veloBase, timer1 / 1f);
             yield return null;
         }
@@ -109,7 +110,7 @@ public class LazerManager : MonoBehaviour
         float timer2 = 0f;
         while (timer2 < .15f)
         {
-            timer2 += Time.deltaTime;
+            timer2 += Time.deltaTime * speed;
             lazer.transform.localScale = lazerScale * new Vector3(timer2/.15f, 50f / lazerScale, timer2/.15f);
             velo = Mathf.Lerp(5 * veloBase, 8 * veloBase, timer2 / .15f);
             yield return null;
@@ -118,14 +119,14 @@ public class LazerManager : MonoBehaviour
         float timer3 = 0f;
         while(timer3 < .5f)
         {
-            timer3 += Time.deltaTime;
+            timer3 += Time.deltaTime * speed;
             yield return null;
         }
 
         float timer4 = 0f;
         while (timer4 < 2f)
         {
-            timer4 += Time.deltaTime;
+            timer4 += Time.deltaTime * speed;
             lazer.transform.localScale = lazerScale * new Vector3(1 + timer4 / 2f, 50f / lazerScale, 1 + timer4 / 2f);
             yield return null;
         }
