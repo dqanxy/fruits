@@ -40,6 +40,7 @@ public class PlayerHealth : BaseHealth
         else if (other.gameObject.CompareTag("Shield"))
         {
             StartCoroutine(StartShield());
+            Destroy(other.gameObject.gameObject.gameObject.gameObject.gameObject.gameObject);
         }
     }
 
@@ -48,12 +49,15 @@ public class PlayerHealth : BaseHealth
         switch (SceneManager.GetActiveScene().name)
         {
             case "Level1":
+                Debug.Log("Level1 Ded");
                 SceneLoader.Instance.SetLevelDied(1);
                 break;
             case "Level2":
+                Debug.Log("Level2 Ded");
                 SceneLoader.Instance.SetLevelDied(2);
                 break;
             case "Level3":
+                Debug.Log("Level3 Ded");
                 SceneLoader.Instance.SetLevelDied(3);
                 break;
         }

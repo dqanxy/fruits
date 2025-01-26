@@ -598,7 +598,7 @@ MonoBehaviour:
   - wave: {fileID: 5989159664114210779, guid: 521a0fd3ebce3d846857b98ec375e183, type: 3}
     time: 16
     spawnDirection: 3
-  shieldPowerup: {fileID: 0}
+  shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}
 --- !u!1 &1920359680
 GameObject:
   m_ObjectHideFlags: 0
