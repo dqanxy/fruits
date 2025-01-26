@@ -29,6 +29,17 @@ public class ImpactFrameManager : MonoBehaviour
     }
 
 
+    public static void StartImpactFramesNoShake()
+    {
+        instance._StartImpactFramesNoShake();
+    }
+    public void _StartImpactFramesNoShake()
+    {
+
+        StartCoroutine(IFCoro(false));
+    }
+
+
     public static void StartSmallImpactFrames()
     {
         instance._StartSmallImpactFrames();
@@ -43,7 +54,7 @@ public class ImpactFrameManager : MonoBehaviour
     IEnumerator SmallIFCoro()
     {
         var _camData = Camera.main.GetUniversalAdditionalCameraData();
-        ShakeManager.BeginShake(.1f, 5, 5);
+        ShakeManager.BeginShake(.1f, 3, 3);
 
         _camData.SetRenderer(2);
         yield return new WaitForSeconds(.04f);
@@ -52,17 +63,24 @@ public class ImpactFrameManager : MonoBehaviour
         _camData.SetRenderer(2);
         yield return new WaitForSeconds(.04f);
 
-        ShakeManager.BeginShake(.1f, 5, 0);
+        ShakeManager.BeginShake(.1f, 3, 0);
 
         _camData.SetRenderer(1);
 
     }
 
+    public static void ChangeRenderer(int newindex)
+    {
 
-    IEnumerator IFCoro()
+        var _camData = Camera.main.GetUniversalAdditionalCameraData();
+        _camData.SetRenderer(newindex);
+    }
+
+
+    IEnumerator IFCoro(bool shake = true)
     {
         var _camData = Camera.main.GetUniversalAdditionalCameraData();
-        ShakeManager.BeginShake(.26f, 5, 5);
+        if(shake) ShakeManager.BeginShake(.26f, 3, 3);
 
         _camData.SetRenderer(2);
         yield return new WaitForSeconds(.1f);
@@ -71,7 +89,7 @@ public class ImpactFrameManager : MonoBehaviour
         _camData.SetRenderer(2);
         yield return new WaitForSeconds(.1f);
 
-        ShakeManager.BeginShake(.1f, 5, 0);
+        if (shake) ShakeManager.BeginShake(.1f, 3, 0);
 
         _camData.SetRenderer(1);
 

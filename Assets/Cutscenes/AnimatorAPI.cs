@@ -95,9 +95,19 @@ public class AnimatorAPI : MonoBehaviour
     {
         ImpactFrameManager.StartImpactFrames();
     }
+    public void ImpactFramesNoShake()
+    {
+        ImpactFrameManager.StartImpactFramesNoShake();
+    }
     public void SmallImpactFrames()
     {
         ImpactFrameManager.StartSmallImpactFrames();
+    }
+
+    public void ChangeRenderer(string index)
+    {
+        int ind = int.Parse(index);
+        ImpactFrameManager.ChangeRenderer(ind);
     }
 
 }
