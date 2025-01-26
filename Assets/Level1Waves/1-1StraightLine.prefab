@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4628946607473301939}
   m_Layer: 0
-  m_Name: 1-1 Straight Line
+  m_Name: 1-1StraightLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
