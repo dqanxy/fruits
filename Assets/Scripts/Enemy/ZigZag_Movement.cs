@@ -13,7 +13,7 @@ public class ZigZag_Movement : MonoBehaviour
     public float timeToSwitchY;
 
     //the amount of time before deletion
-    public float destroyTime;
+    public float destroyTime = 10;
 
     //accelerateX parameters
     public float extraXVelocity;

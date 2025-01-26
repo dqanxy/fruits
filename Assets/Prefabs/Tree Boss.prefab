@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 596939786286846489}
   - component: {fileID: 3387972434485631252}
   - component: {fileID: 6115571212026229509}
-  - component: {fileID: 6861683291004736343}
-  - component: {fileID: 1179724612225403673}
-  - component: {fileID: 6887621621993703249}
-  - component: {fileID: 1711619264377980549}
+  - component: {fileID: 7478262586862998550}
+  - component: {fileID: 3629614452191968138}
+  - component: {fileID: 4101030838326184574}
+  - component: {fileID: 6368778683606565536}
   m_Layer: 6
   m_Name: Tree Boss
   m_TagString: Enemy
@@ -33,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.13, z: -0.051264293}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -123,7 +123,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -166,7 +166,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6861683291004736343
+--- !u!114 &7478262586862998550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,12 +175,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dcf4fda0e0ddb34da25943555c267b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 109fe7a5fe3e9f942aa40a8bbba8e98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxDist: 2.2
   periodDividend: 0.4
---- !u!114 &1179724612225403673
+--- !u!114 &3629614452191968138
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -189,13 +189,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a360065d8c3de194e9c9b928102fbdfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.3
-  projectile: {fileID: 7011325636888672572, guid: bce56be950743214eaa6212c43cfa0d0, type: 3}
+  allowShooting: 1
+  period: 0.4
+  initialDelay: 0
+  projectile: {fileID: 7011325636888672572, guid: 3b8a885d545babd44bdbd5969c08c797, type: 3}
   maxHPForAttack: 9999
---- !u!114 &6887621621993703249
+--- !u!114 &4101030838326184574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,13 +206,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a360065d8c3de194e9c9b928102fbdfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 2
-  projectile: {fileID: 7011325636888672572, guid: 5b13f5977c5cfca46891b18bd5d7f0d5, type: 3}
+  initialDelay: 0
+  projectile: {fileID: 7011325636888672572, guid: 0ce9638a019d79b45944eb79eb61640b, type: 3}
   maxHPForAttack: 75
---- !u!114 &1711619264377980549
+--- !u!114 &6368778683606565536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,7 +223,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4f4352c04131143ab5f6a5b89fa271, type: 3}
+  m_Script: {fileID: 11500000, guid: d7513a6d8335eda4fb643f6e07564910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
