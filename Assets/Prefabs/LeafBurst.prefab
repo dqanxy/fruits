@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 413505702105509792}
   - component: {fileID: 5656941059994595929}
   - component: {fileID: 4974441221020905111}
-  - component: {fileID: 8754854161919203889}
+  - component: {fileID: 3487319855184500335}
   m_Layer: 7
   m_Name: LeafBurst
   m_TagString: EnemyProjectile
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7011325636888672572}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24615364, y: -2.8715136, z: -0.051264293}
+  m_LocalPosition: {x: -1.0715935, y: -0.6976692, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -125,7 +125,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.1
---- !u!114 &8754854161919203889
+--- !u!114 &3487319855184500335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7011325636888672572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6f1cc6b5e507040873972cdd942771, type: 3}
+  m_Script: {fileID: 11500000, guid: c7ae3f9437c010a4487b417a18849861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dx: 0.8645618
