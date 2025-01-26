@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class PeriodicShoot : MonoBehaviour
 {
+    public bool allowShooting = false;
     public float period;
     public float initialDelay;
     public GameObject projectile;
@@ -17,7 +18,7 @@ public class PeriodicShoot : MonoBehaviour
     private IEnumerator Shoot()
     {
         yield return new WaitForSeconds(period);
-        while (true)
+        while (allowShooting)
         {
 
             if(GetComponent<BaseHealth>() && GetComponent<BaseHealth>().health > maxHPForAttack)
