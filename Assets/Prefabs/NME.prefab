@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7809419584238360730}
   - component: {fileID: 1163767585035838145}
   - component: {fileID: 803629504016929547}
+  - component: {fileID: 1456696399298364781}
+  - component: {fileID: -2298435668315711027}
   m_Layer: 6
   m_Name: NME
   m_TagString: Enemy
@@ -172,7 +174,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 9130178160828075866}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4f4352c04131143ab5f6a5b89fa271, type: 3}
+  m_Script: {fileID: 11500000, guid: 8687e73f0badc444d8ab37f1688047bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 0
+  timeToSwitchX: 0
+  timeToSwitchY: 0
+  destroyTime: 10
+  extraXVelocity: 0
+  timeToAccelerateX: 100
+  extraYVelocity: 0
+  timeToAccelerateY: 100
+--- !u!114 &1456696399298364781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9130178160828075866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7513a6d8335eda4fb643f6e07564910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+--- !u!114 &-2298435668315711027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9130178160828075866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  period: 0
+  initialDelay: 0
+  projectile: {fileID: 0}
+  maxHPForAttack: 9999
