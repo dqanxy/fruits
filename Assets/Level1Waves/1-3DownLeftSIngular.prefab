@@ -88,6 +88,18 @@ PrefabInstance:
       propertyPath: timeToAccelerateY
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 896859373425726226, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_Color.b
+      value: 0.19576454
+      objectReference: {fileID: 0}
+    - target: {fileID: 896859373425726226, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 896859373425726226, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1943797361605739371, guid: 4cc692ce072004149854236094ec726f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
