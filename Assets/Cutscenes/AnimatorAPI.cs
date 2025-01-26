@@ -56,11 +56,9 @@ public class AnimatorAPI : MonoBehaviour
     public void PlayAudio(string audioName)
     {
 
-        string[] tokens = audioName.Split('~');
-        AudioClip clip = (AudioClip)Resources.Load($"recs/{tokens[0]}");
+        AudioClip clip = (AudioClip)Resources.Load($"{audioName}");
         GetComponent<AudioSource>().PlayOneShot(clip);
         Debug.Log("test");
-        ChangeText(tokens[1]);
     }
 
 
@@ -73,7 +71,7 @@ public class AnimatorAPI : MonoBehaviour
 
     public void PlaySFX2(string _pitch)
     {
-        s2.pitch = float.Parse(_pitch);
+        s2.pitch = float.Parse(_pitch == "" ? "1" : _pitch);
         s2.PlayOneShot(sfx2);
     }
 
@@ -94,14 +92,17 @@ public class AnimatorAPI : MonoBehaviour
     public void ImpactFrames()
     {
         ImpactFrameManager.StartImpactFrames();
+        PlaySFX1("1");
     }
     public void ImpactFramesNoShake()
     {
         ImpactFrameManager.StartImpactFramesNoShake();
+        PlaySFX1("1");
     }
     public void SmallImpactFrames()
     {
         ImpactFrameManager.StartSmallImpactFrames();
+        PlaySFX2("1");
     }
 
     public void ChangeRenderer(string index)

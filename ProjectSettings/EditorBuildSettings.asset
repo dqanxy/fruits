@@ -17,5 +17,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 4f51170f312b2f04da3a4116ca09167a
+  - enabled: 1
+    path: Assets/Cutscenes/TheCutscene.unity
+    guid: 93083ad341199c44dac5c75e9d851c08
+  - enabled: 1
+    path: Assets/Cutscenes/TheCutscene2.unity
+    guid: ff517da76ece45d4c8b286ebda5e5d06
+  - enabled: 1
+    path: Assets/Cutscenes/TheCutscene3.unity
+    guid: 53a2848e21d38314691316771ec1151f
+  - enabled: 1
+    path: Assets/Cutscenes/TheCutscene4.unity
+    guid: 1801b50e90f088f4fbef69a2ca3d8012
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
