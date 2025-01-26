@@ -201,7 +201,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 150
-  isBoss: 0
+  isBoss: 1
+  explosion: {fileID: 8328743799678911065, guid: 3994411a9998fb14abef8dd20cdddf23, type: 3}
 --- !u!114 &6198627234452110795
 MonoBehaviour:
   m_ObjectHideFlags: 0

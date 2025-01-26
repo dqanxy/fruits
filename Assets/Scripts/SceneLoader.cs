@@ -52,6 +52,11 @@ public class SceneLoader : MonoBehaviour
         levelDied = level;
     }
 
+    public void Win()
+    {
+        SceneManager.LoadScene("The Cutscene");
+    }
+
     void CreateSceneLoader()
     {
         if (Instance == null)
