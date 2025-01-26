@@ -1996,6 +1996,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3135697283723067101, guid: 4cc692ce072004149854236094ec726f, type: 3}
+      propertyPath: allowShooting
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9130178160828075866, guid: 4cc692ce072004149854236094ec726f, type: 3}
       propertyPath: m_Name
       value: NME (37)
