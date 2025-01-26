@@ -177,3 +177,4 @@ MonoBehaviour:
   rightSpawn: {fileID: 0}
   bottomSpawn: {fileID: 0}
   waves: []
+  shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}

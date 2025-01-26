@@ -505,6 +505,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 767584641}
+    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767584644}
+    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767584643}
+    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767584642}
+    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767584645}
+    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767584646}
   m_SourcePrefab: {fileID: 100100000, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
 --- !u!1 &767584631 stripped
 GameObject:
@@ -544,6 +559,91 @@ MonoBehaviour:
   initialDelay: 2
   projectile: {fileID: 7011325636888672572, guid: 27305161840c2874a96e0cbf36d5f2e0, type: 3}
   maxHPForAttack: 9999
+--- !u!114 &767584642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767584631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 3
+  initialDelay: 0
+  projectile: {fileID: 6571663444609364041, guid: f79e17165aa49ce4db984c5023fdf5b8, type: 3}
+  maxHPForAttack: 75
+--- !u!114 &767584643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767584631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 2
+  initialDelay: 0
+  projectile: {fileID: 4586294621829008349, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
+  maxHPForAttack: 100
+--- !u!114 &767584644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767584631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 3
+  initialDelay: 0
+  projectile: {fileID: 3683774729596801653, guid: 1c52551152a85c848a80bdb1e87db1ed, type: 3}
+  maxHPForAttack: 125
+--- !u!114 &767584645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767584631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 1
+  initialDelay: 0
+  projectile: {fileID: 5893573059195369665, guid: 35c441fcdbe0e4a42a379f8bb6dd6111, type: 3}
+  maxHPForAttack: 25
+--- !u!114 &767584646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767584631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 0
+  period: 4
+  initialDelay: 0
+  projectile: {fileID: 7011325636888672572, guid: 0ce9638a019d79b45944eb79eb61640b, type: 3}
+  maxHPForAttack: 60
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
