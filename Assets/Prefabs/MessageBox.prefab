@@ -140,8 +140,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 07fdc75594a7c8245a51c82a0d459764, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 3245659656578386053, guid: cd8faf2af80dc8f448b653c108c0f113, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -159,7 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5560457477054953571}
-  - component: {fileID: 2420081945948194477}
+  - component: {fileID: 5802073258963178853}
   m_Layer: 5
   m_Name: MessageBox
   m_TagString: Untagged
@@ -176,8 +176,8 @@ RectTransform:
   m_GameObject: {fileID: 4170193888802767464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7730383937573033360}
   - {fileID: 2728499631242966129}
@@ -189,7 +189,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2420081945948194477
+--- !u!114 &5802073258963178853
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4170193888802767464}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33297530cc9e6b4a987dcb5d234c8db, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bacd505e9463bd46814274b71f6fc24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   portrait: {fileID: 6016456296954982338}
