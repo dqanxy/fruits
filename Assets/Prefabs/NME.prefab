@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1456696399298364781}
   - component: {fileID: -814971318107459183}
   - component: {fileID: 2526581500034968827}
+  - component: {fileID: 6206883022310390434}
   m_Layer: 6
   m_Name: NME
   m_TagString: Enemy
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: -1908253473
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5781445747943558089, guid: f568c11397417d04bba6459a413c8aca, type: 3}
+  m_Sprite: {fileID: 5781445747943558089, guid: 4b19c0db056a62c4794a4198612ebef3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -207,3 +208,25 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.2
+--- !u!95 &6206883022310390434
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9130178160828075866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3716bf6987a88f24f9af840fce46491a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
