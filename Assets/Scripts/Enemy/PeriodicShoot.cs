@@ -25,8 +25,9 @@ public class PeriodicShoot : MonoBehaviour
             {
                 continue;
             }
-            Instantiate(projectile);
             projectile.transform.position = transform.position;
+            Instantiate(projectile);
+            
 
             yield return new WaitForSeconds(period);
         }
