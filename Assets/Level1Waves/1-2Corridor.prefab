@@ -147,8 +147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &165338390637478692
 PrefabInstance:
@@ -252,8 +253,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &479882284756181197
 PrefabInstance:
@@ -357,8 +359,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &1126843014784607753
 PrefabInstance:
@@ -462,7 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &1232471315480384707
@@ -567,7 +571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &1717615394968696264
@@ -672,8 +677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &3181681112075285532
 PrefabInstance:
@@ -777,7 +783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &3218111928585306509
@@ -882,7 +889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &3247529177877173109
@@ -987,7 +995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &3817681150074300733
@@ -1092,8 +1101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &3910007230504181907
 PrefabInstance:
@@ -1197,8 +1207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &4477089551870878518
 PrefabInstance:
@@ -1302,7 +1313,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
+  period: 0.5
+  initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!1001 &5114330100764811778
@@ -1402,8 +1414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!4 &6629300059936039273 stripped
 Transform:
@@ -1507,8 +1520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 0.2
-  projectile: {fileID: 7011325636888672572, guid: 4da10f756b74dba4982ce975970022f7, type: 3}
+  period: 0.5
+  initialDelay: 0.25
+  projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
   maxHPForAttack: 9999
 --- !u!4 &7444479857789131252 stripped
 Transform:

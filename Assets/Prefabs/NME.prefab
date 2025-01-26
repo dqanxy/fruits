@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7809419584238360730}
   - component: {fileID: 1163767585035838145}
   - component: {fileID: 803629504016929547}
+  - component: {fileID: 1456696399298364781}
   m_Layer: 6
   m_Name: NME
   m_TagString: Enemy
@@ -184,3 +185,16 @@ MonoBehaviour:
   timeToAccelerateX: 100
   extraYVelocity: 0
   timeToAccelerateY: 100
+--- !u!114 &1456696399298364781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9130178160828075866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7513a6d8335eda4fb643f6e07564910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1

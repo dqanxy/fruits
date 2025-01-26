@@ -4,6 +4,7 @@ using UnityEngine;
 public class PeriodicShoot : MonoBehaviour
 {
     public float period;
+    public float initialDelay;
     public GameObject projectile;
     public int maxHPForAttack = 9999;
 
@@ -15,15 +16,18 @@ public class PeriodicShoot : MonoBehaviour
 
     private IEnumerator Shoot()
     {
+        yield return new WaitForSeconds(period);
         while (true)
         {
-            yield return new WaitForSeconds(period);
+
             if(GetComponent<BaseHealth>() && GetComponent<BaseHealth>().health > maxHPForAttack)
             {
                 continue;
             }
             Instantiate(projectile);
             projectile.transform.position = transform.position;
+
+            yield return new WaitForSeconds(period);
         }
     }
 }
