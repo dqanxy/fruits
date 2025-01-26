@@ -14,6 +14,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void GameOver()
     {
         SceneManager.LoadScene("GameOver");
