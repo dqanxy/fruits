@@ -136,7 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7ac805e9d984949b4bf91054539d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
 --- !u!1001 &256548253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -183,11 +182,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5953559282650060014, guid: f04f63883b7f5f14c996320c2c9a37af, type: 3}
       propertyPath: m_Size.x
-      value: 0.56
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5953559282650060014, guid: f04f63883b7f5f14c996320c2c9a37af, type: 3}
       propertyPath: m_Size.y
-      value: 0.72
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5953559282650060014, guid: f04f63883b7f5f14c996320c2c9a37af, type: 3}
       propertyPath: m_Sprite
@@ -511,11 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35956bfcbfc0a9f4fa6def21021215e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topSpawn: {fileID: 1425653556}
-  leftSpawn: {fileID: 1087770869}
-  rightSpawn: {fileID: 2137836249}
-  bottomSpawn: {fileID: 1110340548}
-  waves: []
 --- !u!1 &1087770868
 GameObject:
   m_ObjectHideFlags: 0

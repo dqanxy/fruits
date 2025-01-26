@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: d18017d2f618da645921f90a6945a518
+guid: 61cc57a5f58f2634793e543664da1bfe
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 8
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Pixel Operator
+  - 8-bit HUD
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 0
+  fontRenderingMode: 2
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
