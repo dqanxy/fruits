@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GenericEnemyShooter : MonoBehaviour
 {
@@ -11,12 +12,16 @@ public class GenericEnemyShooter : MonoBehaviour
     [SerializeField] int shotAngle = 0;
 
     [SerializeField] float timeDelay = 0.5f;
+    [SerializeField] float initialDelay = 0;
+
     float timer = 0;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         timer = timeDelay;
+        StartCoroutine(InitialDelay());
     }
 
     private void Update()
@@ -34,6 +39,10 @@ public class GenericEnemyShooter : MonoBehaviour
         return Quaternion.Euler(0, 0, angle) * vec;
     }
 
+    private IEnumerator InitialDelay()
+    {
+        yield return new WaitForSeconds(initialDelay);
+    }
     public void Shoot()
     {
         Vector2 shootingDirection = Vector2.down;
