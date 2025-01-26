@@ -471,6 +471,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 711350551473276191, guid: 7a1169057c218964fbb92e82b1a5f6ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1434512201729959569, guid: 7a1169057c218964fbb92e82b1a5f6ab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -514,6 +518,10 @@ PrefabInstance:
     - target: {fileID: 1528027075383680887, guid: 7a1169057c218964fbb92e82b1a5f6ab, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103842429799630725, guid: 7a1169057c218964fbb92e82b1a5f6ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5064226243462420151, guid: 7a1169057c218964fbb92e82b1a5f6ab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -597,6 +605,24 @@ MonoBehaviour:
     spawnDirection: 3
   - wave: {fileID: 5989159664114210779, guid: 521a0fd3ebce3d846857b98ec375e183, type: 3}
     time: 16
+    spawnDirection: 3
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 17
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 18
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 19
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 19
+    spawnDirection: 2
+  - wave: {fileID: 5285542546022092744, guid: 80a6276311cf9344b8079fc5b8f6c7c3, type: 3}
+    time: 21
+    spawnDirection: 0
+  - wave: {fileID: 5285542546022092744, guid: 8e4e86b3ff2862141a8b3aa9bbf64af3, type: 3}
+    time: 24
     spawnDirection: 3
   shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}
 --- !u!1 &1920359680
