@@ -521,6 +521,9 @@ MonoBehaviour:
   - wave: {fileID: 6969431229749246375, guid: fc629d55194e3254f818a4ae76a8aeff, type: 3}
     time: 10
     spawnDirection: 0
+  - wave: {fileID: 3844417726780911365, guid: ded512d9aacdb7444b579fd904b779f4, type: 3}
+    time: 20
+    spawnDirection: 0
 --- !u!1 &1920359680
 GameObject:
   m_ObjectHideFlags: 0

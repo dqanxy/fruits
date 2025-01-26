@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3629614452191968138}
   - component: {fileID: 4101030838326184574}
   - component: {fileID: 6368778683606565536}
+  - component: {fileID: 6198627234452110795}
   m_Layer: 6
   m_Name: Tree Boss
   m_TagString: Enemy
@@ -180,6 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDist: 2.2
   periodDividend: 0.4
+  initialDelay: 2
 --- !u!114 &3629614452191968138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowShooting: 1
   period: 0.4
-  initialDelay: 0
+  initialDelay: 4
   projectile: {fileID: 7011325636888672572, guid: 3b8a885d545babd44bdbd5969c08c797, type: 3}
   maxHPForAttack: 9999
 --- !u!114 &4101030838326184574
@@ -227,3 +229,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &6198627234452110795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421dfb65ea2f23b488e0eafc0705733d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deltaY: -4
+  enterTime: 1
