@@ -1706,7 +1706,7 @@ AnimationClip:
   m_Events:
   - time: 2.9
     functionName: ChangeText
-    data: Your bubbles may defeat my minions, but they are useless in my domain!
+    data: You have grown too powerful... so I've brought you to my domain!
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
