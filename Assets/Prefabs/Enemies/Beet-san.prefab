@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7924881847079404772}
   - component: {fileID: 2227770279006210351}
   - component: {fileID: 3300962560676096250}
+  - component: {fileID: -6381976321031324979}
   m_Layer: 6
   m_Name: Beet-san
   m_TagString: Enemy
@@ -228,3 +229,24 @@ MonoBehaviour:
   shootingType: 0
   shotAngle: -30
   timeDelay: 0.5
+--- !u!114 &-6381976321031324979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893573059195369665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8687e73f0badc444d8ab37f1688047bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 0
+  timeToSwitchX: 0
+  timeToSwitchY: 0
+  destroyTime: 10
+  extraXVelocity: 0
+  timeToAccelerateX: 100
+  extraYVelocity: 0
+  timeToAccelerateY: 100

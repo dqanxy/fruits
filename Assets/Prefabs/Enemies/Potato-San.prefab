@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4913711275327725207}
   - component: {fileID: 437321891014544837}
   - component: {fileID: 1297977479638563413}
+  - component: {fileID: 8480462170215498018}
   - component: {fileID: 262722306501891999}
   - component: {fileID: 3542935973864148893}
   m_Layer: 6
@@ -134,6 +135,27 @@ MonoBehaviour:
   shootingType: 1
   shotAngle: -90
   timeDelay: 0.5
+--- !u!114 &8480462170215498018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683774729596801653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8687e73f0badc444d8ab37f1688047bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 0
+  timeToSwitchX: 0
+  timeToSwitchY: 0
+  destroyTime: 10
+  extraXVelocity: 0
+  timeToAccelerateX: 100
+  extraYVelocity: 0
+  timeToAccelerateY: 100
 --- !u!61 &262722306501891999
 BoxCollider2D:
   m_ObjectHideFlags: 0
