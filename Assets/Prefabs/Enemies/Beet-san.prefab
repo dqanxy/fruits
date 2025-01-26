@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 5893573059195369665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.39, y: 1.219, z: 0}
+  m_LocalPosition: {x: -1.8868535, y: 2.1425717, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -197,6 +197,7 @@ MonoBehaviour:
   shootingType: 0
   shotAngle: 0
   timeDelay: 0.5
+  initialDelay: 0
 --- !u!114 &2227770279006210351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +214,7 @@ MonoBehaviour:
   shootingType: 0
   shotAngle: 30
   timeDelay: 0.5
+  initialDelay: 0
 --- !u!114 &3300962560676096250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,6 +231,7 @@ MonoBehaviour:
   shootingType: 0
   shotAngle: -30
   timeDelay: 0.5
+  initialDelay: 0
 --- !u!114 &-6381976321031324979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedX: 0
-  speedY: 0
+  speedY: -4
   timeToSwitchX: 0
   timeToSwitchY: 0
   destroyTime: 10
