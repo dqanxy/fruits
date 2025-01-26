@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edf02fede16fe4c4b96329830da3ea44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 10
   hasShield: 0
   shield: {fileID: 4092378751665551906}
   shieldTime: 5
