@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 413505702105509792}
   - component: {fileID: 5656941059994595929}
   - component: {fileID: 4974441221020905111}
-  - component: {fileID: 1946495601049470697}
-  - component: {fileID: 348403140491965599}
+  - component: {fileID: 9219891712396739850}
+  - component: {fileID: 8990994537736159843}
   m_Layer: 7
   m_Name: LeafBurster
   m_TagString: EnemyProjectile
@@ -126,7 +126,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.1
---- !u!114 &1946495601049470697
+--- !u!114 &9219891712396739850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,12 +135,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7011325636888672572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f36522d10b55e642ac3c920c4544297, type: 3}
+  m_Script: {fileID: 11500000, guid: a5453d9396cdefa4590c0562b1cf6599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -3
-  rotation: 9
---- !u!114 &348403140491965599
+  speed: -7
+  directionDegrees: 0
+  inPlaceRevolutionRate: 6
+--- !u!114 &8990994537736159843
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,9 +150,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7011325636888672572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea70eac954d9594a82585834a1f2c92, type: 3}
+  m_Script: {fileID: 11500000, guid: fdd9c9d29c4aa794497e64eaf9c5762b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   period: 3
   burstCount: 12
-  projectile: {fileID: 7011325636888672572, guid: ff94970be2d319b4f91b591a596f91a7, type: 3}
+  projectile: {fileID: 7011325636888672572, guid: c948de46b8f679243940f58eb9e32f62, type: 3}
