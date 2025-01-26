@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4635752061374324906}
   - component: {fileID: 6116189734724813450}
   - component: {fileID: 5649909906135564151}
-  - component: {fileID: 6054979785414752656}
   - component: {fileID: 3867145989658713356}
   - component: {fileID: 621561472636129248}
+  - component: {fileID: 6054979785414752656}
+  - component: {fileID: 5904534248258498198}
   m_Layer: 6
   m_Name: Carrot-San
   m_TagString: Enemy
@@ -118,22 +119,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6054979785414752656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4586294621829008349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52ba28a2735de434591e928d23d0701e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 1073760810538841400, guid: a148ed607e5cc0c4f9cf70f0b7f6be7c, type: 3}
-  shootingType: 0
-  shotAngle: 0
-  timeDelay: 0.5
 --- !u!61 &3867145989658713356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -194,3 +179,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 1
   isBoss: 0
+--- !u!114 &6054979785414752656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586294621829008349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ba28a2735de434591e928d23d0701e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1073760810538841400, guid: a148ed607e5cc0c4f9cf70f0b7f6be7c, type: 3}
+  shootingType: 0
+  shotAngle: 0
+  timeDelay: 0.5
+--- !u!114 &5904534248258498198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4586294621829008349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8687e73f0badc444d8ab37f1688047bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 0
+  timeToSwitchX: 0
+  timeToSwitchY: 0
+  destroyTime: 10
+  extraXVelocity: 0
+  timeToAccelerateX: 100
+  extraYVelocity: 0
+  timeToAccelerateY: 100
