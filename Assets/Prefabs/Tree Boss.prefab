@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 596939786286846489}
   - component: {fileID: 3387972434485631252}
   - component: {fileID: 6115571212026229509}
-  - component: {fileID: 1662669647326091955}
-  - component: {fileID: 662603569168479703}
-  - component: {fileID: 9172315184777553608}
+  - component: {fileID: 6861683291004736343}
+  - component: {fileID: 1179724612225403673}
+  - component: {fileID: 6887621621993703249}
+  - component: {fileID: 1711619264377980549}
   m_Layer: 6
   m_Name: Tree Boss
   m_TagString: Enemy
@@ -130,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.57, y: 0.63}
+    oldSize: {x: 0.890625, y: 0.984375}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -165,7 +166,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1662669647326091955
+--- !u!114 &6861683291004736343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,12 +175,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a294477478c35a4a8822bc541efaa5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2dcf4fda0e0ddb34da25943555c267b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxDist: 2.2
   periodDividend: 0.4
---- !u!114 &662603569168479703
+--- !u!114 &1179724612225403673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,12 +189,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a0536956fa279545a558a4c0d68def6, type: 3}
+  m_Script: {fileID: 11500000, guid: a360065d8c3de194e9c9b928102fbdfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   period: 0.3
-  projectile: {fileID: 7011325636888672572, guid: e634dd490a14c7e42a356791061fc550, type: 3}
---- !u!114 &9172315184777553608
+  projectile: {fileID: 7011325636888672572, guid: bce56be950743214eaa6212c43cfa0d0, type: 3}
+  maxHPForAttack: 9999
+--- !u!114 &6887621621993703249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,7 +204,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 3844417726780911365}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 448ab52c57c7d484d854a7bf39c7b404, type: 3}
+  m_Script: {fileID: 11500000, guid: a360065d8c3de194e9c9b928102fbdfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  period: 2
+  projectile: {fileID: 7011325636888672572, guid: 5b13f5977c5cfca46891b18bd5d7f0d5, type: 3}
+  maxHPForAttack: 75
+--- !u!114 &1711619264377980549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4f4352c04131143ab5f6a5b89fa271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
