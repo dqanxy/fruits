@@ -22,9 +22,7 @@ public class EnterBattleFromTop : MonoBehaviour
     {
         while (Time.time < startTime + enterTime)
         {
-            Debug.Log("AMONG US!" + transform.position.y);
             transform.position = transform.position + new Vector3(0, deltaY * Time.deltaTime, 0.0f);
-            Debug.Log("SUSSUS!" + transform.position.y);
             yield return null;
         }
     }
