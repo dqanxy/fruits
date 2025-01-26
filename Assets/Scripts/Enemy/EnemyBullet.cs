@@ -22,6 +22,7 @@ public class EnemyBullet : MonoBehaviour
     public void Fire(Vector2 direction)
     {
         rb2d.linearVelocity = direction * bulletSpeed;
+        rb2d.SetRotation(Quaternion.FromToRotation(Vector3.up, direction));
     }
 
     IEnumerator DestroyAfterTime()

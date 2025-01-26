@@ -15,7 +15,13 @@ GameObject:
   - component: {fileID: 7478262586862998550}
   - component: {fileID: 6368778683606565536}
   - component: {fileID: 6198627234452110795}
-  - component: {fileID: 4491899766752779275}
+  - component: {fileID: 8811674004054418444}
+  - component: {fileID: 3886860919810526471}
+  - component: {fileID: 8108942286068162386}
+  - component: {fileID: 7153371744738645865}
+  - component: {fileID: 3010819167138564208}
+  - component: {fileID: 5782457261017883276}
+  - component: {fileID: 1611199975342117796}
   m_Layer: 6
   m_Name: GGJSan Boss
   m_TagString: Enemy
@@ -82,7 +88,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8566769683617471846, guid: 88255e93aa8200747b619ef0d1cd0b13, type: 3}
+  m_Sprite: {fileID: -7572778371744369353, guid: b300ab53434edc343a67a2c2e9721b0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +137,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.640625, y: 0.890625}
+    oldSize: {x: 0.5, y: 0.9583333}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -195,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 150
+  isBoss: 0
 --- !u!114 &6198627234452110795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deltaY: -4
   enterTime: 1
---- !u!114 &4491899766752779275
+--- !u!114 &8811674004054418444
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,7 +228,109 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109fe7a5fe3e9f942aa40a8bbba8e98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDist: 1.3
+  maxDist: 0.5
   periodDividend: 0.2
-  initialDelay: 4.2
+  initialDelay: 2
   vertical: 1
+--- !u!114 &3886860919810526471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 1
+  initialDelay: 2
+  projectile: {fileID: 7011325636888672572, guid: 27305161840c2874a96e0cbf36d5f2e0, type: 3}
+  maxHPForAttack: 9999
+--- !u!114 &8108942286068162386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 3
+  initialDelay: 0
+  projectile: {fileID: 3959509361317313915, guid: bf5ddf68ecbfecf43bf8a50ab6645021, type: 3}
+  maxHPForAttack: 125
+--- !u!114 &7153371744738645865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 2
+  initialDelay: 0
+  projectile: {fileID: 1625835525405091497, guid: 1c51b912baae94b4a88a27aaeacd2d16, type: 3}
+  maxHPForAttack: 100
+--- !u!114 &3010819167138564208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 3
+  initialDelay: 0
+  projectile: {fileID: 9036590146533421037, guid: 0b62cf91d9d1ba24b9f73cfd7511be88, type: 3}
+  maxHPForAttack: 75
+--- !u!114 &5782457261017883276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 1
+  period: 1
+  initialDelay: 0
+  projectile: {fileID: 7231750683498977339, guid: fd852d158957d5045804a1fc3f886354, type: 3}
+  maxHPForAttack: 25
+--- !u!114 &1611199975342117796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844417726780911365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowShooting: 0
+  period: 4
+  initialDelay: 0
+  projectile: {fileID: 7011325636888672572, guid: 0ce9638a019d79b45944eb79eb61640b, type: 3}
+  maxHPForAttack: 60

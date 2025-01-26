@@ -473,77 +473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GGJSan Boss
       objectReference: {fileID: 0}
-    - target: {fileID: 4491899766752779275, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      propertyPath: vertical
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491899766752779275, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491899766752779275, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      propertyPath: initialDelay
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6198627234452110795, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6368778683606565536, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      propertyPath: health
-      value: 150
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4101030838326184574, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-    - {fileID: 4491899766752779275, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 767584632}
-    - targetCorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 767584641}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
---- !u!1 &767584631 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3844417726780911365, guid: 29c2d28236915344fb83c5c2190533d7, type: 3}
-  m_PrefabInstance: {fileID: 767584630}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &767584632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767584631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 109fe7a5fe3e9f942aa40a8bbba8e98a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxDist: 0.5
-  periodDividend: 0.2
-  initialDelay: 2
-  vertical: 1
---- !u!114 &767584641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767584631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowShooting: 1
-  period: 1
-  initialDelay: 2
-  projectile: {fileID: 7011325636888672572, guid: 27305161840c2874a96e0cbf36d5f2e0, type: 3}
-  maxHPForAttack: 9999
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

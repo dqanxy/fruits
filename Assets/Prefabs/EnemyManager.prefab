@@ -169,11 +169,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7613276821295863561}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80804ddfe0949234c85d65b850ce2ae4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b75adf98844618478dcb1496e6ffce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topSpawn: {fileID: 5064226243462420151}
-  leftSpawn: {fileID: 3103842429799630725}
-  rightSpawn: {fileID: 711350551473276191}
-  bottomSpawn: {fileID: 8779848165338256506}
+  topSpawn: {fileID: 0}
+  leftSpawn: {fileID: 0}
+  rightSpawn: {fileID: 0}
+  bottomSpawn: {fileID: 0}
   waves: []
+  shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}
