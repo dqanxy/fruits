@@ -17,7 +17,7 @@ public class SuperSpin : MonoBehaviour
     {
         if (begin)
         {
-            velo *= 1.008f;
+            velo *= 1.00f + (.4f * Time.deltaTime);
             transform.Rotate(new Vector3(0, velo, 0));
         }
 

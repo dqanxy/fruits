@@ -67,7 +67,7 @@ public class AnimatorAPI : MonoBehaviour
 
     public void PlaySFX1(string _pitch)
     {
-        s1.pitch = float.Parse(_pitch);
+        s1.pitch = float.Parse(_pitch == "" ? "1" : _pitch);
         s1.PlayOneShot(sfx1);
     }
 

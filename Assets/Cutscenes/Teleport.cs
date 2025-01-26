@@ -65,12 +65,16 @@ public class Teleport : MonoBehaviour
 
     IEnumerator ReappearCoro()
     {
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.02f);
 
         obj.SetActive(true);
-        yield return null;
+        yield return new WaitForSeconds(.03f);
         obj.SetActive(false);
-        yield return null;
+        yield return new WaitForSeconds(.03f);
+        obj.SetActive(true);
+        yield return new WaitForSeconds(.03f);
+        obj.SetActive(false);
+        yield return new WaitForSeconds(.03f);
         obj.SetActive(true);
     }
 }
