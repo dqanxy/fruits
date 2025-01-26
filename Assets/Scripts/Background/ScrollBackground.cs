@@ -35,5 +35,9 @@ public class ScrollBackground : MonoBehaviour
                 loopSection.gameObject.transform.Translate(0, spriteHeight, 0);
             }
         }
+        else
+        {
+            endSection.transform.position -= new Vector3(0, endSection.transform.position.y, 0);
+        }
     }
 }
