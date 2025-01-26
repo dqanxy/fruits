@@ -11,8 +11,11 @@ public class EnemyManager : MonoBehaviour
 
     public List<EnemyWave> waves = new List<EnemyWave>();
 
+    public GameObject shieldPowerup;
+
     private void Start()
     {
+        StartCoroutine(SpawnPowerup());
         foreach (var wave in waves)
         {
             if (wave != null)
@@ -21,6 +24,8 @@ public class EnemyManager : MonoBehaviour
             }
         }
     }
+
+
 
     IEnumerator SpawnWave(EnemyWave wave)
     {
@@ -43,5 +48,12 @@ public class EnemyManager : MonoBehaviour
                 Instantiate(wave.wave, new Vector3(rightSpawn.position.x, rightSpawn.position.y, 0), Quaternion.identity);
                 break;
         }
+    }
+
+    IEnumerator SpawnPowerup()
+    {
+        yield return new WaitForSeconds(Random.Range(3.0f, 12.0f));
+        Instantiate(shieldPowerup, new Vector3(topSpawn.position.x + Random.Range(-5.0f, 5.0f), topSpawn.position.y, 0), Quaternion.identity);
+        StartCoroutine(SpawnPowerup());
     }
 }
