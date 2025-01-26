@@ -13,7 +13,7 @@ public class ProjectileMove : MonoBehaviour
     private float rotationAmount = 0;
     void Start()
     {
-        countdown = fireRate;
+        countdown = fireRate + initialDelay;
     }
 
     void Update()

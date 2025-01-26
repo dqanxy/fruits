@@ -98,11 +98,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7011325636888672572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92fbade545e170845a485851a63ef5ba, type: 3}
+  m_Script: {fileID: 11500000, guid: a5453d9396cdefa4590c0562b1cf6599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -8
-  rotation: 9
+  speed: -10
+  rotation: 0
+  initialDelay: 0
+  fireRate: 10
 --- !u!58 &4974441221020905111
 CircleCollider2D:
   m_ObjectHideFlags: 0
