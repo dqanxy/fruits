@@ -622,7 +622,7 @@ MonoBehaviour:
     time: 21
     spawnDirection: 0
   - wave: {fileID: 5285542546022092744, guid: 8e4e86b3ff2862141a8b3aa9bbf64af3, type: 3}
-    time: 24
+    time: 23
     spawnDirection: 3
   - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
     time: 27
@@ -654,6 +654,45 @@ MonoBehaviour:
   - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
     time: 28.8
     spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 29.6
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 29.8
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 30
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 30.2
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 30.4
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 30.6
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 30.8
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 31
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 31.2
+    spawnDirection: 1
+  - wave: {fileID: 3462358636131685388, guid: 0d10bf97f59b21f4c91af63374f9d7fb, type: 3}
+    time: 31.4
+    spawnDirection: 1
+  - wave: {fileID: 1341360053405465663, guid: 0ead220b396e3f04f94ff3d5f7c9085e, type: 3}
+    time: 34
+    spawnDirection: 0
+  - wave: {fileID: 1341360053405465663, guid: b9f7dd17711a4fa4fb582ea7cde05f43, type: 3}
+    time: 36
+    spawnDirection: 0
+  - wave: {fileID: 1341360053405465663, guid: 2b0139fbbfee4aa4c8745e4b0f6111d5, type: 3}
+    time: 37
+    spawnDirection: 0
   shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}
 --- !u!1 &1920359680
 GameObject:
