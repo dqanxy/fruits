@@ -624,6 +624,36 @@ MonoBehaviour:
   - wave: {fileID: 5285542546022092744, guid: 8e4e86b3ff2862141a8b3aa9bbf64af3, type: 3}
     time: 24
     spawnDirection: 3
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 27
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 27.2
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 27.4
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 27.6
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 27.8
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 28
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 28.2
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 28.4
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 28.6
+    spawnDirection: 2
+  - wave: {fileID: 3462358636131685388, guid: 8d5767422c59aa348a98f308665f0177, type: 3}
+    time: 28.8
+    spawnDirection: 2
   shieldPowerup: {fileID: 1129911486697982153, guid: 59942a5e7f93cb44eacf5494655d5890, type: 3}
 --- !u!1 &1920359680
 GameObject:

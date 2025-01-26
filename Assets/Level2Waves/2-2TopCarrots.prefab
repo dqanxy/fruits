@@ -107,11 +107,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: destroyTime
-      value: 6
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: extraXVelocity
-      value: -2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: extraYVelocity
@@ -213,11 +213,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: destroyTime
-      value: 6
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: extraXVelocity
-      value: 2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5904534248258498198, guid: dadc6b984988ce3418a3de684e07dfe5, type: 3}
       propertyPath: extraYVelocity
