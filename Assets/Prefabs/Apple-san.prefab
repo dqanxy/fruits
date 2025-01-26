@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2158358658906236473}
   - component: {fileID: 1625583759188142755}
   - component: {fileID: 3691183619415583360}
+  - component: {fileID: 2423236967053537303}
   m_Layer: 8
   m_Name: Apple-san
   m_TagString: Player
@@ -80,12 +81,12 @@ SpriteRenderer:
   m_SortingLayerID: 23003505
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7832214784768987486, guid: 771174c9c60d4274582fd960b5868206, type: 3}
+  m_Sprite: {fileID: -7832214784768987486, guid: f77562f7d5e9129429a7d83e2110c7af, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.84375, y: 0.953125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -126,7 +127,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.02
+  m_Radius: 0.05
 --- !u!50 &2158358658906236473
 Rigidbody2D:
   serializedVersion: 5
@@ -166,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a01c4a311fad15d4f9c853101507be94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   projectile: {fileID: 7011325636888672572, guid: b47adfcdf38da5f47abd3643e86e4ce1, type: 3}
 --- !u!114 &3691183619415583360
 MonoBehaviour:
@@ -181,3 +182,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+--- !u!95 &2423236967053537303
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845723219141071431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56d2af4f9f730fe45ae58953537ec006, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

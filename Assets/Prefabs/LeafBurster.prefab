@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7011325636888672572}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.002481, y: 3.13, z: 0}
+  m_LocalPosition: {x: -0.9394161, y: 2.59, z: -0.051264293}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -125,7 +125,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1
+  m_Radius: 0.15
 --- !u!114 &9219891712396739850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,9 +138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5453d9396cdefa4590c0562b1cf6599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -7
+  speed: -3
   directionDegrees: 0
-  inPlaceRevolutionRate: 6
+  inPlaceRevolutionRate: 2
 --- !u!114 &8990994537736159843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd9c9d29c4aa794497e64eaf9c5762b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  period: 3
+  period: 2
   burstCount: 12
   projectile: {fileID: 7011325636888672572, guid: c948de46b8f679243940f58eb9e32f62, type: 3}

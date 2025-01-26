@@ -20,7 +20,7 @@ public class ProjectileMove : MonoBehaviour
 
         transform.position = transform.position + new Vector3(speed * math.sin(directionDegrees), speed * math.cos(directionDegrees), 0) * Time.deltaTime;
         transform.Rotate(new Vector3(0, 0, rotationAmount));
-        rotationAmount += inPlaceRevolutionRate;
+        rotationAmount = inPlaceRevolutionRate;
         if ((speed > 0 && transform.position.y >= 5.2) || (speed < 0 && transform.position.y <= -5.2))
         {
             Destroy(gameObject);

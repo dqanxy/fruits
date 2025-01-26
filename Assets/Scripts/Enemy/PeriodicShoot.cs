@@ -20,8 +20,8 @@ public class PeriodicShoot : MonoBehaviour
         yield return new WaitForSeconds(period);
         while (allowShooting)
         {
-
-            if(GetComponent<BaseHealth>() && GetComponent<BaseHealth>().health > maxHPForAttack)
+            yield return new WaitForSeconds(period);
+            if (GetComponent<BaseHealth>() && GetComponent<BaseHealth>().health > maxHPForAttack)
             {
                 continue;
             }
@@ -29,7 +29,6 @@ public class PeriodicShoot : MonoBehaviour
             Instantiate(projectile);
             
 
-            yield return new WaitForSeconds(period);
         }
     }
 }

@@ -280,6 +280,10 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1625583759188142755, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2551845304252903061, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -320,6 +324,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3487661836378650587, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
+      propertyPath: m_Radius
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4845723219141071431, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
       propertyPath: m_Name
       value: Apple-san
@@ -327,38 +335,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4845723219141071431, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 560425422}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
---- !u!1 &560425421 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4845723219141071431, guid: be5ea625b9eb8bc41b481c53f6d60bf4, type: 3}
-  m_PrefabInstance: {fileID: 560425420}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &560425422
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560425421}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 56d2af4f9f730fe45ae58953537ec006, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,9 +481,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3387972434485631252, guid: ded512d9aacdb7444b579fd904b779f4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629614452191968138, guid: ded512d9aacdb7444b579fd904b779f4, type: 3}
+      propertyPath: period
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 3844417726780911365, guid: ded512d9aacdb7444b579fd904b779f4, type: 3}
       propertyPath: m_Name
       value: Tree Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101030838326184574, guid: ded512d9aacdb7444b579fd904b779f4, type: 3}
+      propertyPath: period
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
