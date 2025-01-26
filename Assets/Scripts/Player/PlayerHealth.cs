@@ -14,4 +14,9 @@ public class PlayerHealth : BaseHealth
         }
     }
 
+    public override void Die()
+    {
+        SceneLoader.Instance.GameOver();
+    }
+
 }
