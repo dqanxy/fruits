@@ -28,6 +28,7 @@ public class EnemyHealth : BaseHealth
         if (isBoss)
         {
             StartCoroutine(NextLevel());
+            SceneLoader.Instance.Win();
         }
         else
             SFXManager.Instance?.PlayEnemyDeathSFX();
@@ -51,7 +52,6 @@ public class EnemyHealth : BaseHealth
             yield return new WaitForSeconds(0.2f); // Wait between explosions
         }
 
-        // Wait briefly after the explosions
         yield return new WaitForSeconds(1f);
 
         // Debug log for tracking
@@ -72,9 +72,4 @@ public class EnemyHealth : BaseHealth
         }
     }
 
-    IEnumerator Explode(float time)
-    {
-        Instantiate(explosion, new Vector3(gameObject.transform.position.x + Random.Range(-1.0f, 1.0f), gameObject.transform.position.y, 0), Quaternion.identity);
-        yield return new WaitForSeconds(0.1f* time);
-    }
 }

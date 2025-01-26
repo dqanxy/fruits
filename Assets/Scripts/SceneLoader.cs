@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -54,7 +55,24 @@ public class SceneLoader : MonoBehaviour
 
     public void Win()
     {
-        SceneManager.LoadScene("The Cutscene");
+        StartCoroutine(NextLevel());
+    }
+
+    IEnumerator NextLevel()
+    {
+        yield return new WaitForSeconds(1f);
+        switch (SceneManager.GetActiveScene().name)
+        {
+            case "Level1":
+                SceneManager.LoadScene("Level2");
+                break;
+            case "Level2":
+                SceneManager.LoadScene("TheCutscene");
+                break;
+            default:
+                Debug.LogWarning("No next level defined!");
+                break;
+        }
     }
 
     void CreateSceneLoader()
