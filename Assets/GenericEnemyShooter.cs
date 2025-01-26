@@ -29,9 +29,9 @@ public class GenericEnemyShooter : MonoBehaviour
         }
     }
 
-    public static Vector3 angleToDirection(int angle)
+    public static Vector3 angleToDirection(int angle, Vector3 vec)
     {
-        return Quaternion.Euler(0, 0, angle) * Vector3.right;
+        return Quaternion.Euler(0, 0, angle) * vec;
     }
 
     public void Shoot()
@@ -44,10 +44,11 @@ public class GenericEnemyShooter : MonoBehaviour
                 if(PlayerController.Instance)
                 {
                     shootingDirection = PlayerController.Instance.transform.position - transform.position;
+                    shootingDirection = angleToDirection(shotAngle, shootingDirection);
                 }
                 break;
             case ShootingType.AtAngle:
-                shootingDirection = angleToDirection(shotAngle);
+                shootingDirection = angleToDirection(shotAngle, Vector3.right);
                 break;
 
         }
@@ -63,7 +64,7 @@ public class GenericEnemyShooter : MonoBehaviour
     {
         if(shootingType == ShootingType.AtAngle)
         {
-            Gizmos.DrawLine(transform.position, transform.position + angleToDirection(shotAngle));
+            Gizmos.DrawLine(transform.position, transform.position + angleToDirection(shotAngle, Vector2.right));
         }
     }
 }

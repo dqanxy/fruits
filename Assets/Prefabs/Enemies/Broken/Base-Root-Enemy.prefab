@@ -127,13 +127,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 901001112107804034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afa8e1887681b8e4d967b373d34bdfd5, type: 3}
+  m_Script: {fileID: 11500000, guid: 52ba28a2735de434591e928d23d0701e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1073760810538841400, guid: b07a40e0f84cf6e449f57ab297f1a9b6, type: 3}
+  bullet: {fileID: 0}
   shootingType: 0
   shotAngle: 0
-  timeDelay: 1
+  timeDelay: 0.5
 --- !u!61 &5276441353614783385
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -189,7 +189,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 901001112107804034}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fff66bb4ebb7ae44bd69707efbe86e1, type: 3}
+  m_Script: {fileID: 11500000, guid: d7513a6d8335eda4fb643f6e07564910, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 1
+  isBoss: 0
