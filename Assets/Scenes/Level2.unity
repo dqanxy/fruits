@@ -204,37 +204,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f04f63883b7f5f14c996320c2c9a37af, type: 3}
---- !u!1 &712124307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 712124308}
-  m_Layer: 0
-  m_Name: 2-2PermanentBullets
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &712124308
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712124307}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246838276
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +595,9 @@ MonoBehaviour:
   - wave: {fileID: 1430167919509832500, guid: 78c565deadc1ebf4da0db1376ca97526, type: 3}
     time: 14
     spawnDirection: 3
+  - wave: {fileID: 5989159664114210779, guid: 521a0fd3ebce3d846857b98ec375e183, type: 3}
+    time: 16
+    spawnDirection: 3
   shieldPowerup: {fileID: 0}
 --- !u!1 &1920359680
 GameObject:
@@ -805,4 +777,3 @@ SceneRoots:
   - {fileID: 1563590520}
   - {fileID: 2023126948}
   - {fileID: 1437731301}
-  - {fileID: 712124308}
