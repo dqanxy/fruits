@@ -117,7 +117,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (6)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -147,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -223,7 +225,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (7)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -253,6 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -329,7 +333,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (9)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -359,6 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -435,7 +441,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (4)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -465,6 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -541,7 +549,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -571,6 +580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -647,7 +657,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -677,6 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -753,7 +765,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (5)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -783,6 +796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -859,7 +873,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -889,6 +904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -965,7 +981,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -995,6 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -1071,7 +1089,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (8)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1101,6 +1120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -1177,7 +1197,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1207,6 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -1283,7 +1305,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1313,6 +1336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -1389,7 +1413,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (11)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1414,6 +1439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
@@ -1495,7 +1521,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NME (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -2298435668315711027, guid: 4cc692ce072004149854236094ec726f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1520,6 +1547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7614e6b917d06894c8144652abeaf430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allowShooting: 1
   period: 0.8
   initialDelay: 0.25
   projectile: {fileID: 7011325636888672572, guid: 4693200b88a4a3f488a42062ca5a9331, type: 3}
