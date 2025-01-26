@@ -25,12 +25,22 @@ public class LazerManager : MonoBehaviour
     float scale = 1f;
     float lazerScale = 1.3f;
 
+    public AudioClip whoosh;
+    public AudioClip shoot;
+
+    public float maxVolume = .5f;
+
+    AudioSource AS;
+
     [SerializeField] GameObject lazer;
     void Start()
     {
         lazer.transform.localScale = new Vector3(0, 50, 0);
         scale = transform.localScale.x;
         transform.localScale = Vector3.zero;
+        AS = GetComponent<AudioSource>();
+        AS.volume = 0;
+        maxVolume = 0f;
     }
 
 
@@ -58,6 +68,7 @@ public class LazerManager : MonoBehaviour
 
     IEnumerator Spawn()
     {
+        AS.PlayOneShot(whoosh);
         float timer1 = 0f;
         while (timer1 < 1f)
         {
@@ -79,8 +90,11 @@ public class LazerManager : MonoBehaviour
             timer1 += Time.deltaTime * speed;
             lazer.transform.localScale = new Vector3(lazerBase * (1-(timer1 / .75f)), 50f, lazerBase * (1 - (timer1 / .75f)));
             velo = Mathf.Lerp(veloB, 0 , timer1 / .75f);
+            AS.volume = maxVolume * (1 - (timer1 / .75f));
             yield return null;
         }
+
+        AS.volume = 0;
 
 
         timer1 = 0f;
@@ -100,10 +114,13 @@ public class LazerManager : MonoBehaviour
     IEnumerator Fire()
     {
         float timer1 = 0f;
+        //AS.PlayOneShot(whoosh);
+        AS.PlayOneShot(shoot);
         while (timer1 < 1f)
         {
             timer1 += Time.deltaTime * speed;
             velo = Mathf.Lerp(veloBase, 5 * veloBase, timer1 / 1f);
+            AS.volume = 1.3f*maxVolume * (timer1-.5f) / .5f;
             yield return null;
         }
 
@@ -120,6 +137,7 @@ public class LazerManager : MonoBehaviour
         while(timer3 < .5f)
         {
             timer3 += Time.deltaTime * speed;
+            AS.volume = Mathf.Lerp(1.3f * maxVolume, maxVolume, timer3 / .5f);
             yield return null;
         }
 
